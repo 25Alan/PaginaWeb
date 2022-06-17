@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: fixed;                        /*Recordatorio: Que se mantiene por encima de todos*/
+    top: 0;                                 /*Recordatorio: En que parte se va a mantener todo el fixed*/
+    right: 0;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container_header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+header .logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 160px;
+}
+
+.container_nav{
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0px 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.select{
+    background: yellow;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 20px;
+}
+
+.nav_mod{
+    height: 70px;
+    box-shadow: 1px 1px 10px 2px rgb(30, 255, 0);
+    background: white;
+}
+
+/*--------------------------- COVER PAGE ------------------------*/
+
+.cover_page{
+    width: 100%;
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    background-color: rgb(245, 114, 6);
+}
+
+.container_cover {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cover_page .container_info{
+    max-width: 400px;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+.cover_page h1{
+    max-width: 400px;
+    font-size: 60px;
+    font-weight: 900;
+    color: black
+    
+}
+
+.cover_page h2{
+    font-size: 60px;
+    font-weight: 900;
+    color: blue;
+    margin-top: -30px;
+}
+
+.cover_page p{
+    margin-top: 10px;
+    color: rgb(22, 20, 20);
+    font-weight: bold;
+}
+
+.cover_page .container_info .login_select[type= "button"]{
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: yellow;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px gray;
+    cursor: pointer;
+    transition: box-shadow 600ms;
+}
+
+.cover_page .container_info .login_select[type= "button"]:hover{
+    box-shadow: 1px 1px 30px -5px yellow;
+}
+
+.container_vector{
+    position: relative;
+}
+
+.container_vector img{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 600px;
+    animation: move_bike 6s ease-in-out infinite;
+}
+
+
+@keyframes move_bike {
+    0%{
+        transform: translateX(10px);
+    }
+    25%{
+        transform: translateX(-10px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
+
+/*-------------------------TABLE.LIST------------------------*/
+
+.container_all_table{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(245, 114, 6);
+    position: relative;
+}
+
+.content_table_page{
+    width: 1100px;
+    height: 300px;
+    background-color: rgb(245, 114, 6);
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+
+.column{
+    background: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 14px;    
+    box-shadow: -10px 1px 8px 5px blue;
+    border: none;
+    height: 280px;
+    width: 500px;
+}
+
+
+
+.column h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -5px 2px 10px yellow;
+}
+
+.column hr{
+    border: none;
+}
+
+table{
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    width: 500px;
+    background-color: blueviolet;
+    border: none;
+    color:yellow;
+    font-family: 'Poppins';
+    font-weight:lighter;
+}
+
+table th{
+    background-color: black;
+    color:yellow;
+    font-size: 19px;
+    font-family: monospace;
+}
+
+table td{
+    background-color: #424241d7;
+}
+
+table td:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+}
+
+table tr a:hover{
+    color:yellow;
+    font-size: 18px;
+}
+
+.button_buy{
+    border-style: solid;
+    background-color: yellow;
+    font-weight:bold;   
+}
+
+.button_buy:hover{
+    border-color: black;
+    background-color: gray;
+}
+
+
+/*----------------------MAINTENANCE------------------------------*/
+.content_table_page_maintenance{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.column_maintenance h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -5px 2px 10px yellow;
+}
+
+.column_maintenance{
+    background: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 14px;    
+    box-shadow: -10px 1px 8px 5px blue;
+    border: none;
+    height: 500px;
+    width: 500px;
+}
+/*---------------------------- FOOTER -------------------------*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background: rgb(245, 114, 6);
+}
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    background: transparent;
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.box_footer .logo img{
+    width: 250px;
+}
+
+.box_footer .textlogo{
+    max-width: 350px;    
+    margin-top: 25px;
+    font-weight: 400;
+    color: black;
+    font-size: 17px;
+}
+
+.box_footer h2{
+    margin-bottom: 30px;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.box_footer a{
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.box_footer a:hover{
+    opacity: 0.8;
+}
+
+.box_footer a .fab{
+    font-size: 18px;
+}
+
+.box_copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box_copyright p{
+    margin-top: 20px;
+    color: black;
+}
+
+.box_copyright hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+

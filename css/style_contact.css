@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: rgb(24, 5, 75);
+}
+
+form{
+    background:linear-gradient(rgb(20, 17, 180),rgb(49, 13, 138));
+    position: fixed;
+    top: 10%;
+    left: 33%; /* acá no se por q me gustaba mas 33 por ciento q 30 jaja*/
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    cursor: pointer;
+}
+
+hr{
+    border: none;
+}
+
+h1{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(58, 77, 241);
+}
+
+h1:hover{
+    text-shadow: -1px 2px 2px rgb(238, 150, 17);
+    font-size: 80px;
+    transition: 600ms;
+}
+
+
+input{
+    padding: 10px;
+    margin: 6px;
+    font-size: 20px;
+    border-color: black;
+    text-align: center;
+    color: black;
+    background-color: rgb(238, 150, 17);
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+    border-color: blue;
+    border-radius: 5px;
+    box-shadow: -2px -1px 1px 1px yellow;
+    background-color: black;
+    color: white;
+    width: 350px;
+    transition: 800ms;
+}
+
+
+button{
+    background-color: rgb(238, 150, 17);
+    border-style: none;
+    font-size: 25px;
+    border: solid;
+    border-color: black;
+    margin: 5px;
+    box-shadow: -1px 2px 2px 2px orangered;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: black;
+    color: yellow;
+    transition: 700ms;
+}
+
+
