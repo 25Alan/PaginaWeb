@@ -17,7 +17,6 @@ header{
     background-color: rgb(255, 255, 255);
 }
 
-
 .container_header{
     max-width: 1200px;
     height: 100%;
@@ -186,9 +185,7 @@ nav ul li a{
     left: 10%;
     justify-content: space-between;
     display: flex;
-    
 }
-
 
 .column{
     background: blueviolet;
@@ -200,8 +197,6 @@ nav ul li a{
     height: 280px;
     width: 500px;
 }
-
-
 
 .column h2{
     font-size: 50px;
@@ -263,13 +258,13 @@ table tr a:hover{
     background-color: gray;
 }
 
-
 /*----------------------MAINTENANCE------------------------------*/
 .content_table_page_maintenance{
     position: absolute;
     top: 10%;
     left: 35%;
 }
+
 .column_maintenance h2{
     font-size: 50px;
     padding-bottom: 20px;
@@ -287,6 +282,7 @@ table tr a:hover{
     height: 500px;
     width: 500px;
 }
+
 /*---------------------------- FOOTER -------------------------*/
 
 footer{
@@ -361,4 +357,3 @@ footer{
     height: 1px;
     background-color: black;
 }
-
