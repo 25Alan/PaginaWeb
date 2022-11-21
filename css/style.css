@@ -10,8 +10,8 @@ header{
     height: 100px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    position: fixed;                        /*Recordatorio: Que se mantiene por encima de todos*/
-    top: 0;                                 /*Recordatorio: En que parte se va a mantener todo el fixed*/
+    position: fixed;                        
+    top: 0;                                
     right: 0;
     z-index: 100;
     background-color: rgb(255, 255, 255);
@@ -70,7 +70,7 @@ nav ul li a{
     border-radius: 20px;
 }
 
-.nav_mod{
+.nav_mod {
     height: 70px;
     box-shadow: 1px 1px 10px 2px rgb(30, 255, 0);
     background: white;

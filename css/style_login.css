@@ -1,90 +1,51 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    background-color: rgb(24, 5, 75);
+* {
+  background-color: rgb(24, 5, 75);
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-form{
-    background:linear-gradient(rgb(20, 17, 180),rgb(49, 13, 138));
-    position: fixed;
-    top: 10%;
-    left: 33%; /* acá no se por q me gustaba mas 33 por ciento q 30 jaja*/
-    width: 500px;
-    height: 500px;
-    justify-content: center;
-    text-align: center;
-    padding: 50px;
-    cursor: pointer;
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-hr{
-    border: none;
+form {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-img{
-    width: 140px;
-    background-color: rgba(224, 185, 185, 0.959);
+form .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-img:hover{
-   border: solid;
-   background-color: black;
-   border-color: rgb(238, 150, 17);
-   box-shadow: -1px 4px 4px 2px rgb(238, 150, 17);
-    transition: 600ms;
+form .containerInput {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 20px 0px;
 }
 
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    background-color: transparent;
+.inputLogin {
+  margin: 5px;
 }
 
-h1:hover{
-    text-shadow: -1px 2px 2px rgb(238, 150, 17);
-    font-size: 40px;
-    transition: 600ms;
+form .containerButton {
+  display: flex;
+  flex-direction: column;
 }
 
-input{
-    padding: 10px;
-    margin: 6px;
-    font-size: 20px;
-    border-color: black;
-    text-align: center;
-    color: black;
-    background-color: rgb(238, 150, 17);
-    font-weight: bold;
-}
-
-input:focus{
-    outline: none;
-    border-color: blue;
-    border-radius: 5px;
-    box-shadow: -2px -1px 1px 1px yellow;
-    background-color: black;
-    color: white;
-    width: 350px;
-    transition: 800ms;
-}
-
-button{
-    background-color: rgb(238, 150, 17);
-    border-style: none;
-    font-size: 25px;
-    border: solid;
-    border-color: black;
-    margin: 5px;
-    box-shadow: -1px 2px 2px 2px orangered;
-    font-weight: bold;
-}
-
-button:hover{
-    background-color: black;
-    color: yellow;
-    transition: 700ms;
+.buttonLogin {
+  margin: 5px;
 }
