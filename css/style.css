@@ -1,3 +1,5 @@
+@import url(./root.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +8,7 @@
 }
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--header-Color);
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   height: 100px;
@@ -71,15 +73,17 @@ nav ul li a {
 }
 
 .nav_mod {
-  background: white;
+  background: transparent;
+  backdrop-filter: blur(15px);
   box-shadow: 1px 1px 10px 2px rgb(30, 255, 0);
   height: 70px;
+  -o-backdrop-filter: blur(15px);
 }
 
 /*--------------------------- COVER PAGE ------------------------*/
 
 .cover_page {
-  background-color: rgb(245, 114, 6);
+  background-color: var(--main-Color-2);
   font-family: "Poppins", sans-serif;
   margin-top: 100px;
   padding-bottom: 60px;
@@ -284,7 +288,7 @@ table tr a:hover {
 /*---------------------------- FOOTER -------------------------*/
 
 footer {
-  background: rgb(245, 114, 6);
+  background: var(--footer-Color);
   padding: 50px 0px;
   width: 100%;
 }
