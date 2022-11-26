@@ -4,6 +4,6 @@ window.onscroll = function(){
 
     header = document.getElementById("header");
 
-    if(scroll > 20) header.classList.add("nav_mod");
-    else if(scroll < 20) header.classList.remove("nav_mod");
+    if(scroll > 20) header.classList.add("nav_mod_js");
+    else if(scroll < 20) header.classList.remove("nav_mod_js");
 }
