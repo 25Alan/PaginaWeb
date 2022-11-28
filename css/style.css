@@ -11,7 +11,7 @@
 }
 
 header {
-  background-color: var(--header-Color);
+  background-color: var(--login-Color1);
   font-size : 16px; font-family: "Poppins", sans-serif; font-weight: bold;
   height: 15.5vh;
   position: fixed;
@@ -40,6 +40,10 @@ header {
   width: 11.25em;
 }
 
+.logoHeader {
+  fill: white;
+}
+
 .container_nav {
   height: 100%;
 }
@@ -61,11 +65,11 @@ header {
 }
 
 .container_nav nav ul li a {
-  color: hsl(0, 0%, 0%);
+  color: var(--font-Color1);
 }
 
 .select {
-  background: yellow;
+  background: hsl(113, 100%, 50%);
   border-radius: 20px;
   padding: 10px 20px;
 }
@@ -84,7 +88,7 @@ main {
 /*--------------------------- COVER PAGE ------------------------*/
 
 .cover_page {
-  background-color: var(--main-Color-2);
+  background-color: var(--login-Color2);
   font-family: "Poppins", sans-serif;
   margin-top: 15.5vh;
   height : 100vh;
@@ -113,7 +117,7 @@ main {
 }
 
 .container_cover_info h2 {
-  color: blue;
+  color: hsl(240, 5%, 91%);
   font-size: 60px;
   font-weight: 900;
   margin-top: -30px;
@@ -147,7 +151,7 @@ main {
 }
 
 .container_vector img {
-  animation: move_bike 0.1s ease-in-out infinite;
+  animation: move_bike 2s ease-in-out infinite;
   position: absolute;
   right: 0px;
   width: 38rem;
@@ -168,7 +172,7 @@ main {
 /*---------------------------- FOOTER -------------------------*/
 
 footer {
-  background: var(--main-Color-4);
+  background: var(--login-ColorGradient);
   width: 100vw;
 }
 
