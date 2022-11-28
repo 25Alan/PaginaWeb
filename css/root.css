@@ -11,4 +11,8 @@
     --login-Color3 : #1a3c7d;
     --login-Color4 : #101217;
     --login-Color5 : #0c0d0d;
+    --login-Color6 : #1a3c7d;
+    --login-ColorGradient : linear-gradient(0deg, var(--login-Color3) 30%, var(--login-Color2) 70%);
+
+    --font-Color1 : hsl(0, 1%, 41%);
 }
