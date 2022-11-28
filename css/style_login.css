@@ -3,7 +3,7 @@
 * {
   background-color: var(--login-Color5);
   box-sizing: border-box; 
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 91%);
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -15,13 +15,46 @@ body {
   height: 100vh;
   justify-content: center;
   width: 100vw;
+  position: relative;
+}
+
+.containerTypeLogin {
+  background-color: hsl(0, 1%, 10%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  height: 12%;
+  width: 10%;
+}
+
+.containerTypeLogin .buttonModLogin[type="button"]{
+  font-family: monospace;
+  font-size: 1rem;
+  border: none; 
+  cursor: pointer;
+}
+
+.containerTypeLogin .buttonModLogin[type="button"]::after {
+  content: "---->";
+  position: absolute;
+  width: 3rem;
+  height: 1.2rem;
+}
+
+.containerTypeLogin .buttonModLogin[type="button"]:hover {
+  color: gray;
 }
 
 form {
   background-color: var(--login-Color3); border-radius: 10px;
   height: 60%;
   position: relative;
-  width: 50%;
+  width: 40%;
 }
 
 form .container_all {
@@ -45,11 +78,22 @@ form .containerLogo {
   width: 80%;
 }
 
+body img {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1000;
+}
+
 form .containerInput {
-  background-color: var(--login-Color2);
   display: flex;
   flex-direction: column;
   margin: 0px 0px 20px 0px;
+}
+
+.containerInput input::placeholder {
+  color: hsl(125, 39%, 52%);
 }
 
 .inputLogin {
@@ -57,10 +101,19 @@ form .containerInput {
 }
 
 form .containerButton {
-  background-color: var(--login-Color1);
+  border-style: none;
   display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .buttonLogin {
+  border-style: none;
+  color: hsl(125, 83%, 70%);
   margin: 5px;
+}
+
+.buttonLogin:hover {
+  cursor: pointer;
+  color: hsla(125, 83%, 70%, 0.769);
 }
