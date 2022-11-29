@@ -1,78 +1,62 @@
+@import url(./root.css);
+
 * {
-  background-color: rgb(24, 5, 75);
+  background-color: var(--login-Color5);
   box-sizing: border-box;
+  color: hsl(129, 85%, 69%);
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
-form {
-  background: linear-gradient(rgb(20, 17, 180), rgb(49, 13, 138));
-  cursor: pointer;
-  height: 500px;
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
   justify-content: center;
-  left: 33%; /* acá no se por q me gustaba mas 33 por ciento q 30 jaja*/
-  padding: 50px;
-  position: fixed;
-  top: 10%;
-  text-align: center;
-  width: 500px;
+  width: 100vw;
+  position: relative;
 }
 
-hr {
+form {
+  background-color: var(--login-Color3);
+  border-radius: 10px;
+  height: 60%;
+  position: relative;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form h1 {
+  background-color: transparent;
+}
+
+#problem::placeholder {
+  color: var(--font-Color1);
+  text-transform: uppercase;
+}
+
+form input::placeholder {
+  text-transform: uppercase;
+  color: var(--font-Color1);
+}
+
+form label {
+  background-color: transparent;
+}
+
+form button {
+  text-transform: uppercase;
+  cursor: pointer;
   border: none;
-}
-
-h1 {
-  background-color: rgb(58, 77, 241);
-  color: rgb(0, 0, 0);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 70px;
-  margin-top: 10px;
-}
-
-h1:hover {
-  font-size: 80px;
-  text-shadow: -1px 2px 2px rgb(238, 150, 17);
-  transition: 600ms;
-}
-
-input {
-  background-color: rgb(238, 150, 17);
-  border-color: black;
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 6px;
   padding: 10px;
-  text-align: center;
+  background-color: hsla(238, 66%, 28%, 0.416);
 }
 
-input:focus {
-  border-color: blue;
-  border-radius: 5px;
-  background-color: black;
-  box-shadow: -2px -1px 1px 1px yellow;
-  color: white;
-  outline: none;
-  transition: 800ms;
-  width: 350px;
-}
-
-button {
-  background-color: rgb(238, 150, 17);
-  border: solid;
-  border-color: black;
-  box-shadow: -1px 2px 2px 2px orangered;
-  border-style: none;
-  font-size: 25px;
-  font-weight: bold;
-  margin: 5px;
-}
-
-button:hover {
-  background-color: black;
-  color: yellow;
-  transition: 700ms;
+form button:hover {
+  opacity: 0.7;
 }
