@@ -36,7 +36,7 @@
             <div class="container_nav">
                 <nav>
                     <ul>
-                        <li><img src="../../../image/hammer-solid.svg" alt="adminMod"><a href="../../../contact-us.html" target="blank">Admin</a></li>
+                        <li><img src="../../../image/hammer-solid.svg" alt="adminMod"><a href="./client.html" target="blank">Admin</a></li>
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="#" class="select">Bike List</a></li>
                         <li><a href="./maintenance.html">Maintenance</a></li>
@@ -50,21 +50,25 @@
     <!-------------------------- TABLE ------------------------------------->
     <main>
         <div class="container_all_table">
-            <section class="containerDescription">
-                <div class="description">
-                    <img src="../../../image/bikeList/2021_Mondraker_Podium_Carbon_RR.webp"
-                        alt="2021_Mondraker_Podium_Carbon_RR" id="img">
-                        <ul>
-                            <li>Suspension Hardtail</li>
-                            <li>Travel100mm front</li>
-                            <li>Frame Carbon</li>
-                            <li>Fork RockShox SID SL Ultimate</li>
-                            <li>Wheels 29″ Aluminum</li>
-                            <li>Drivetrain 1 x 12</li>
-                            <li>Groupset X01 Eagle, GX Eagle</li>
-                            <li>Brakes Hydraulic Disc</li>
-                        </ul>
-                    <button class="buttonOk"> OK </button>
+            <section id="containerbikeAdmin">
+                <div class="bikeadmin">
+                    <label for="name">Name :<input type="text" name="name" id="name"></label>
+                    <label for="price">Price :<input type="number" name="price" id="price"></label>
+                    <label for="image">Image :<input type="file" name="image" id="image"></label>
+                    <label for="details">Details :
+                        <input type="text" name="details" id="details">
+                        <input type="text" name="details" id="details">
+                        <input type="text" name="details" id="details">
+                        <input type="text" name="details" id="details">
+                        <input type="text" name="details" id="details">
+                        <input type="text" name="details" id="details">
+                        <input type="text" name="details" id="details">
+                        <input type="text" name="details" id="details">
+                    </label>
+                    <div class="buttonsBike">
+                        <button class="buttonbike"> DELETE </button>
+                        <button class="buttonbike" id="buttonChangeBike"> CHANGE </button>
+                    </div>
                 </div>
             </section>
             <section class="containerBuy">
@@ -109,9 +113,7 @@
                                 <th></th>
                             </tr>
                             <tr>
-                                <td>
-                                    <a class="clickDescription">2021 Mondraker Podium Carbon RR</a>
-                                </td>
+                                <td id="clickDescription">2021 Mondraker Podium Carbon RR</td>
                                 <td>$1.250</td>
                                 <td class="button_buy" type="button"><a href="#">Buy</a></td>
                             </tr>
@@ -212,7 +214,7 @@
         </div>
     </footer>
     <script src="../../../Js/script.js"></script>
-    <script src="../../../Js/user/image.js"></script>
+    <script src="../../../Js/admin/client.js"></script>
 </body>
 
 </html>
