@@ -1,0 +1,19 @@
+.content_table_page a img {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/* MOD ADMIN ACTIVADO */
+
+.containerAdmin {
+    background-color: var(--login-Color2);
+    color: white;
+    height: 84.5vh;
+    margin-top: 15.5vh;
+    position: relative;
+    width: 100%;
+}

@@ -4,62 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN/HOME</title>
 
-    <title>Bike Shop-Karl</title>
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../../css/styleindexAdmin.css">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../css/header_footer/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="shortcut icon" href="image/favicon.png">
-
-
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../../../image/favicon.png">
 </head>
-
 <body>
-    <script src="Js/script.js"></script>
-    <!-----------------------HEADER------------------------->
-
     <header id="header">
-        <div class="container_header">
+        <section class="container_header">
             <div class="logo">
-                <img src="image/bikeshop.svg" alt="BIKE-LOGO">
+                <img id="logoHeader" src="../../../image/bikeshop.svg" alt="BIKE-LOGO">
             </div>
-            <div class="container_nav">
+            <section class="container_nav">
                 <nav>
                     <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="bike-list.html" class="select">Bike List</a></li>
-                            <li><a href="maintenance.html">Maintenance</a></li>
-                            <li><a href="contact-us.html" target="blank">Contact Us</a></li>
+                        <li><a href="index.html" class="select">Home</a></li>
+                        <li><a href="./bike-list.html">Bike List</a></li>
+                        <li><a href="maintenance.html">Maintenance</a></li>
+                        <li><a href="contact-us.html" target="blank">Contact Us</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
+            </section>
+        </section>
     </header>
 
-<!--------------------------------------------------------------------->
+    <main>
+        <div class="container_all_table">
+            <section class="containerDescription">
+                <div class="description">
+                    <img src="../../../image/bikeList/2021_Mondraker_Podium_Carbon_RR.webp"
+                        alt="2021_Mondraker_Podium_Carbon_RR" id="img">
+                        <ul>
+                            <li>Suspension Hardtail</li>
+                            <li>Travel100mm front</li>
+                            <li>Frame Carbon</li>
+                            <li>Fork RockShox SID SL Ultimate</li>
+                            <li>Wheels 29″ Aluminum</li>
+                            <li>Drivetrain 1 x 12</li>
+                            <li>Groupset X01 Eagle, GX Eagle</li>
+                            <li>Brakes Hydraulic Disc</li>
+                        </ul>
+                    <button class="buttonOk"> OK </button>
+                </div>
+            </section>
+            <span>Home &#187; &#187; Table</span>
+            <section class="containerTitle">
+                <h1>PRODUCT TABLES</h1>
+            </section>
+            <div class="content_table_page">
+                
+                <a href="./addProduct.html">
+                    <img src="../../../image/hammer-solid.svg" alt="adminMod">
+                </a>
 
-    <div class="container_all_table">
-
-        <div class="content_table_page">
-            
                 <div class="column">
-                        <h2>MTB</h2>
-                        <hr>
-                        <div class="content_table">
-                            <table>
-                                <tbody>
+                    <h2>MTB</h2>
+                    <table>
+                        <tbody>
                             <tr>
                                 <th>Make-Model</th>
                                 <th colspan="2">Price</th>
                                 <th></th>
                             </tr>
                             <tr>
-                                <td>2021 Mondraker Podium Carbon RR</td>
+                                <td>
+                                    <a class="clickDescription">2021 Mondraker Podium Carbon RR</a>
+                                </td>
                                 <td>$$</td>
                                 <td class="button_buy" type="button"><a href="#">Buy</a></td>
                             </tr>
@@ -84,15 +103,15 @@
                                 <td class="button_buy" type="button"><a href="#">Buy</a></td>
                             </tr>
                         </tbody>
-                            </table>
-                        </div>    
+                    </table>
+                    <section class="containerPagination">
+                        <a href="#"> <-- </a> <button>--></button>
+                    </section>
                 </div>
-                
+
                 <div class="column">
                     <h2>ROUTE</h2>
-                    <hr>
-                    <div class="content_table">
-                        <table>
+                    <table>
                         <tr>
                             <th>Make-Model</th>
                             <th colspan="2">Price</th>
@@ -123,29 +142,25 @@
                             <td>$$</td>
                             <td class="button_buy" type="button"><a href="#">Buy</a></td>
                         </tr>
-                        </table>
-                    </div>
+                    </table>
+                    <section class="containerPagination">
+                        <button><--</button><button>--></button>
+                    </section>
                 </div>
 
-        </div>
-
-    </div>
-
-
-
-
-    <!----------------FOOTER--------------------->
+            </div>
+    </main>
 
     <footer>
         <div class="container_footer">
             <div class="box_footer">
                 <div class="logo">
-                    <img src="image/bikeshop.svg" alt="bikelogofooter">
+                    <img src="../../../image/bikeshop.svg" alt="bikelogofooter">
                 </div>
                 
-            <div class="textlogo">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque temporibus, corporis fugiat harum praesentium nihil officia id exercitationem ipsam iure inventore consequatur aut, voluptates ullam ad minus unde, corrupti suscipit.</p>
-            </div>
+                <div class="textlogo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque temporibus, corporis fugiat harum praesentium nihil officia id exercitationem ipsam iure inventore consequatur aut, voluptates ullam ad minus unde, corrupti suscipit.</p>
+                </div>
             </div>
             <div class="box_footer">
                 <h2>Branch offices</h2>
@@ -161,7 +176,7 @@
                 <a href="#">Processes</a>
                 <a href="#">Services</a>
             </div>
-
+            
             <div class="box_footer">
                 <h2>Redes Sociales</h2>
                 <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
@@ -176,7 +191,8 @@
             <b>Bike Shop Karl Drais</b></p>
         </div>
     </footer>
+
+    <script src="../../../Js/script.js"></script>
+    <script src="../../../Js/user/image.js"></script>
 </body>
-
-
 </html>
