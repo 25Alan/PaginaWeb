@@ -224,7 +224,7 @@ footer {
 }
 
 .box_footer .textlogo {
-  color: black;
+  color: hsl(0, 0%, 90%);
   font-size: 17px; font-weight: 400;
   margin-top: 1.2rem;
   max-width: 50%
@@ -243,7 +243,7 @@ footer {
 }
 
 .box_footer_networks a {
-  color: black;
+  color: hsl(0, 0%, 62%);
   font-weight: 600;
 }
 

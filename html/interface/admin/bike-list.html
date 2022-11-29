@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bike Shop-Karl</title>
+
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../css/header_footer/style.css">
+    <link rel="stylesheet" href="../../../css/styleindexAdmin.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/favicon.png">
+
+
+
+</head>
+
+<body>
+    <!-----------------------HEADER------------------------->
+
+    <header id="header">
+        <div class="container_header">
+            <div class="logo">
+                <img src="../../../image/bikeshop.svg" alt="BIKE-LOGO">
+            </div>
+            <div class="container_nav">
+                <nav>
+                    <ul>
+                        <li><img src="../../../image/hammer-solid.svg" alt="adminMod"><a href="../../../contact-us.html" target="blank">Admin</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#" class="select">Bike List</a></li>
+                        <li><a href="./maintenance.html">Maintenance</a></li>
+                        <li><a href="../../../contact-us.html" target="blank">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-------------------------- TABLE ------------------------------------->
+    <main>
+        <div class="container_all_table">
+            <section class="containerDescription">
+                <div class="description">
+                    <img src="../../../image/bikeList/2021_Mondraker_Podium_Carbon_RR.webp"
+                        alt="2021_Mondraker_Podium_Carbon_RR" id="img">
+                        <ul>
+                            <li>Suspension Hardtail</li>
+                            <li>Travel100mm front</li>
+                            <li>Frame Carbon</li>
+                            <li>Fork RockShox SID SL Ultimate</li>
+                            <li>Wheels 29″ Aluminum</li>
+                            <li>Drivetrain 1 x 12</li>
+                            <li>Groupset X01 Eagle, GX Eagle</li>
+                            <li>Brakes Hydraulic Disc</li>
+                        </ul>
+                    <button class="buttonOk"> OK </button>
+                </div>
+            </section>
+            <section class="containerBuy">
+                <div class="buy">
+                    <section class="paymode1">
+                        <label for="paymode"> Pay mode :
+                            <select name="paymode" id="paymode">
+                                <option value="0"></option>
+                                <option value="1">Visa</option>
+                                <option value="2">Mastercard</option>
+                                <option value="3">Sube</option>
+                            </select>
+                        </label>
+                    </section>
+                    <section class="paymode2">
+                        <label for="paymode2"> Counted <input name="paymode2" type="radio"></label>
+                        <label for="paymode2"> 2 installments <input name="paymode2" type="radio"></label>
+                        <label for="paymode2"> 3 installments <input name="paymode2" type="radio"></label>
+                    </section>
+                    <section class="paymode3">
+                        <label for="paymode3"> Address : <input type="text" name="paymode3"></label>
+                    </section>
+                    <section class="paymode4">
+                        <label for="paymode4">Generate purchase code <input type="checkbox"></label>
+                    </section>
+                    <button class="buttonConfirm"> Confirm </button>
+                </div>
+            </section>
+            <span> <a href="./index.html">Home</a> &#187; &#187; Product (Bike)</span>
+            <section class="containerTitle">
+                <h1>PRODUCT TABLES</h1>
+            </section>
+            <div class="content_table_page">
+
+                <div class="column">
+                    <h2>MTB</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Make-Model</th>
+                                <th colspan="2">Price</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="clickDescription">2021 Mondraker Podium Carbon RR</a>
+                                </td>
+                                <td>$1.250</td>
+                                <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                            </tr>
+                            <tr>
+                                <td>2022 Canyon Exceed CF SLX 9</td>
+                                <td>$3.520</td>
+                                <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                            </tr>
+                            <tr>
+                                <td>2023 Trek Procaliber 9.7</td>
+                                <td>$2.000</td>
+                                <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                            </tr>
+                            <tr>
+                                <td>2023 Norco Revolver HT 2 120</td>
+                                <td>$2.546</td>
+                                <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                            </tr>
+                            <tr>
+                                <td>2022 Giant XTC Advanced SL 29 1</td>
+                                <td>$4.715</td>
+                                <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <section class="containerPagination">
+                        <button>&#8920;</button> 1 - 2 <button> &#8921;</button>
+                    </section>
+                </div>
+
+                <div class="column">
+                    <h2>ROUTE</h2>
+                    <table>
+                        <tr>
+                            <th>Make-Model</th>
+                            <th colspan="2">Price</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Gian Tcr Carbono</td>
+                            <td>$$</td>
+                            <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Merida Scultura</td>
+                            <td>$$</td>
+                            <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Canyion aero</td>
+                            <td>$$</td>
+                            <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Merida Warp</td>
+                            <td>$$</td>
+                            <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Cannondale Slice</td>
+                            <td>$$</td>
+                            <td class="button_buy" type="button"><a href="#">Buy</a></td>
+                        </tr>
+                    </table>
+                    <section class="containerPagination">
+                        <button>&#8920;</button> 1 - 2 <button> &#8921;</button>
+                    </section>
+                </div>
+
+            </div>
+    </main>
+
+    <!----------------FOOTER--------------------->
+
+    <footer>
+        <div class="container_footer">
+            <div class="box_footer">
+                <div class="logo">
+                    <img src="../../../image/bikeshop.svg" alt="bikelogofooter">
+                </div>
+                
+                <div class="textlogo">
+                    <p>Karl Drais is all the bikes, in one place, with powerful tools that provide easy-to-understand analysis for your next bike purchase.In truth, we're just software geeks who love bikes. We built the site to use ourselves and hope you find it useful too!</p>
+                </div>
+            </div>
+            
+            <div class="box_footer_networks">
+                <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+                <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                <a href="#"><i class="fab fa-instagram-square"></i>Instagram</a>
+            </div>
+        </div>
+        <div class="box_copyright">
+            <hr>
+            <p>All rights reserved &#169 2021
+            <b>Bike Shop Karl Drais</b></p>
+        </div>
+    </footer>
+    <script src="../../../Js/script.js"></script>
+    <script src="../../../Js/user/image.js"></script>
+</body>
+
+</html>

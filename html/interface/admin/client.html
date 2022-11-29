@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Admin - Client</title>
+
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../css/header_footer/style.css">
+    <link rel="shortcut icon" href="../../../image/favicon.png">
+    <link rel="stylesheet" href="../../../css/styleindexAdmin.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header id="header">
+        <section class="container_header">
+            <div class="logo">
+                <img id="logoHeader" src="../../../image/bikeshop.svg" alt="BIKE-LOGO">
+            </div>
+            <section class="container_nav">
+                <nav>
+                    <ul>
+                        <li><img src="../../../image/hammer-solid.svg" alt="adminMod"><a href="#" target="blank">Admin</a></li>
+                        <li><a href="#" class="select">Home</a></li>
+                        <li><a href="./bike-list.html">Bike List</a></li>
+                        <li><a href="./maintenance.html">Maintenance</a></li>
+                        <li><a href="../../../contact-us.html" target="blank">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+    </header>
+
+    <main class="container_all">
+        <span> Admin &#187; <a href="../../../index.html">Sign off</a></span>
+        <div class="cover_page">
+            
+            <section class="container_cover">
+
+                <section id="modClient">
+                    <div class="containerClient">
+                        <label for="Name">Name :<input name="Name" type="text" value="Xaria"></label>
+                        <label for="Surname">Surname :<input name="Surname" type="text" value="Bas"></label>
+                        <label for="Email">Email :<input name="Email" type="text" value="xaria.bas@gmail.com"></label>
+                        <label for="Phone">Phone :<input name="Phone" type="number" value="697891"></label>
+                        <label for="Postal">Posta Code :<input name="Postal" type="number" value="4740"></label>
+    
+                        <div class="buttons">
+                            <button class="buttonClient">DELETE</button>
+                            <button class="buttonClient" id="button">CONFIRM CHANGES</button>
+                        </div>
+                    </div>
+                </section>
+
+                <table>
+                    <tr>
+                        <th COLSPAN=6>Client</th>
+                        <th COLSPAN=2>Shooping</th>
+                    </tr>
+                    <tr>
+                        <th>Name</th> 
+                        <th>Surname</th> 
+                        <th>Email</th> 
+                        <th>Phone</th> 
+                        <th>Postal Code</th>
+                        <th>Country</th> 
+                        <th>Bike</th> 
+                        <th>Maintenance</th> 
+                    </tr>
+                    <tr>
+                        <td id="selectClient">Xaria</td>
+                        <td>Bas</td>
+                        <td>xaria.bas@gmail.com</td> 
+                        <td>697891</td> 
+                        <td>4740</td> 
+                        <td>Argentina</td> 
+                        <td>
+                            #459 <br>
+                            #495
+                        </td> 
+                        <td>
+                            #312 <br>
+                            #159
+                        </td>  
+                    </tr>
+                    <tr>
+                        <td>Carola</td>
+                        <td>Cervantes</td>
+                        <td>carola.cervantes@gmail.com</td>
+                        <td>549199</td> 
+                        <td>4980</td> 
+                        <td>Argentina</td> 
+                        <td>
+                            #894 <br>
+                            #981
+                        </td> 
+                        <td>
+                            #213 <br>
+                            #214
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>Esperanza</td>
+                        <td>Arbelaiz</td>
+                        <td>esperanza.arbelaiz@gmail.com</td>
+                        <td>541299</td> 
+                        <td>4222</td> 
+                        <td>Argentina</td> 
+                        <td>
+                            #813 <br>
+                            #922
+                        </td> 
+                        <td>
+                            #211 <br>
+                            #241
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>Iñigo</td>
+                        <td>Alas</td>
+                        <td>iñi.alas@gmail.com</td>
+                        <td>532299</td> 
+                        <td>4110</td> 
+                        <td>Argentina</td> 
+                        <td>
+                            #124 <br>
+                            #281
+                        </td> 
+                        <td>
+                            #113 <br>
+                            #014
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>Ovidio</td>
+                        <td>Briones</td>
+                        <td>ovidi.bro@gmail.com</td>
+                        <td>549459</td> 
+                        <td>1110</td> 
+                        <td>Argentina</td> 
+                        <td>
+                            #814 <br>
+                            #051
+                        </td> 
+                        <td>
+                            #008 <br>
+                            #944
+                        </td> 
+                    </tr>
+                </table>
+
+            </section>
+            
+        </div>
+    
+    </main>
+    
+    <footer>
+        <div class="container_footer">
+            <div class="box_footer">
+                <div class="logo">
+                    <img src="../../../image/bikeshop.svg" alt="bikelogofooter">
+                </div>
+                
+                <div class="textlogo">
+                    <p>Karl Drais is all the bikes, in one place, with powerful tools that provide easy-to-understand analysis for your next bike purchase.In truth, we're just software geeks who love bikes. We built the site to use ourselves and hope you find it useful too!</p>
+                </div>
+            </div>
+            
+            <div class="box_footer_networks">
+                <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+                <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                <a href="#"><i class="fab fa-instagram-square"></i>Instagram</a>
+            </div>
+        </div>
+        <div class="box_copyright">
+            <hr>
+            <p>All rights reserved &#169 2021
+            <b>Bike Shop Karl Drais</b></p>
+        </div>
+    </footer>
+
+    <script src="../../../Js/script.js"></script>
+    <script src="../../../Js/admin/client.js"></script>
+</body>
+</html>
