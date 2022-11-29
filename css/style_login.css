@@ -117,3 +117,7 @@ form .containerButton {
   cursor: pointer;
   color: hsla(125, 83%, 70%, 0.769);
 }
+
+#Register {
+  display: none;
+}

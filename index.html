@@ -25,7 +25,8 @@
         <a href="./html/interface/user/index.html" type="button" name="modUser" class="buttonModLogin"> User</a>
     </div>
     <img src="image/user.svg">
-    <form>
+
+    <form id="login">
         <section class="container_all">
             <section class="containerLogo">
                 <h1>LOGIN</h1>
@@ -36,10 +37,30 @@
             </section>
             <section class="containerButton">
                 <button class="buttonLogin">Login</button>
+                <button class="buttonLogin" id="register">Register</button>
+            </section>
+        </section>
+    </form>
+
+    <form id="Register">
+        <section class="container_all">
+            <section class="containerLogo">
+                <h1>REGISTER</h1>
+            </section>
+            <section class="containerInput">
+                <input class="inputLogin" type="text" placeholder="Name">
+                <input class="inputLogin" type="text" placeholder="Surname">
+                <input class="inputLogin" type="email" placeholder="Email">
+                <input class="inputLogin" type="number" placeholder="Phone">
+                <input class="inputLogin" type="number" placeholder="Postal Code">
+                <input class="inputLogin" type="password" placeholder="Password">
+            </section>
+            <section class="containerButton">
                 <button class="buttonLogin">Register</button>
             </section>
         </section>
     </form>
+    <script src="./Js/index.js"></script>
 </body>
 
 </html>
