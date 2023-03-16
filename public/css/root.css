@@ -1,0 +1,18 @@
+:root {
+    --header-Color : #CF5300;
+    --main-Color-1 : #4D1E00;
+    --main-Color-2 : #FF6600;
+    --main-Color-3 : #EB5E00;
+    --main-Color-4 : linear-gradient(0deg, #FF7619 15%,#FF6600 85%);
+    --footer-Color : #333333;
+
+    --login-Color1 : #0e254e;
+    --login-Color2 : #06296b;
+    --login-Color3 : #1a3c7d;
+    --login-Color4 : #101217;
+    --login-Color5 : #0c0d0d;
+    --login-Color6 : #1a3c7d;
+    --login-ColorGradient : linear-gradient(0deg, var(--login-Color3) 30%, var(--login-Color2) 70%);
+
+    --font-Color1 : hsl(0, 0%, 80%);
+}
